@@ -1,0 +1,212 @@
+/* -------------------- CSSは一番下から書き始めてください！ -------------------- */
+
+* {
+    box-sizing: border-box;
+    font-family: 'Zen Maru Gothic', sans-serif;
+  }
+  
+  .logo-header{
+    opacity: 0.7;
+    margin-bottom: 50px;
+    width: 200px;
+  }
+
+  body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .top-wrapper {
+    padding: 80px 0 200px 0;
+    background-image:url(../img/hero.jpg);
+    color: white;
+    text-align: center;
+    background-size: cover;
+  }
+  
+  .top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: #043e69;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: #A4EBF3;
+    opacity: 0.9;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+    box-shadow:  2px 2px 5px gray;
+  }
+  
+  .header-menu{
+        display: flex;
+        justify-content: center;
+}
+
+  .header-menu a{
+    line-height: 65px;
+    padding: 0 25px;
+    color: #043e69;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+    font-weight: bold;
+  }
+  
+  .about-us {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-image:url(../img/back.jpg);
+    text-align: center;
+  }
+  
+  .heading {
+    padding-top: 80px;
+    padding-bottom: 20px;
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .heading p {
+    margin-top: 0px;
+    color: #043e69;
+  }
+  
+  
+  .heading h3 {
+    font-weight: normal;
+  }
+  
+  footer p {
+    font-size: 12px;
+  }
+  
+  footer {
+    background-color: #F2F2F2;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  
+  /* -------------------- CSSはここから追加していきましょう！ -------------------- */
+  .menu-icon{
+    display:none;
+  }
+  
+  .clear{
+    clear:left;
+  }
+  
+  .about-text p{
+    line-height: 30px;
+  }
+
+  .content{
+    float:left;
+    width: calc(100% / 3);
+    height: 400px;
+    text-align: center;
+  }
+
+  .content-box{
+    display: inline-block;
+    position: relative;
+    background-color:#EDFAFB;
+    box-shadow:  2px 2px 5px gray;
+    width:300px;
+    height:300px;
+  }
+
+  .icon{
+    position: absolute;
+    top: 40px;
+    left: 65px;
+  }
+
+  .content-title{
+    position: absolute;
+    width: 100%;
+    top: 230px;
+    left: 50%;
+    color:#043e69;
+    font-size: 20px;
+    transform: translate(-50%);
+  }
+
+  .reserve{
+    background-color: #EDFAFB;
+  }
+
+  .reserve-text{
+    padding-bottom: 60px;
+  }
+  
+  .access{
+    padding-bottom: 60px;
+  }
+
+  .news-box{
+    background-color: white;
+    margin:-80px auto 60px auto;
+    width:60%;
+    border: solid 1px #aaa;
+    border-radius: 10px;
+  }
+
+  .news-heading{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 30px;
+  }
+
+  .news-heading h2{
+    font-weight: normal;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    color: #5f5d60;
+  }
+
+  .news-heading p{
+    margin: 0px;
+    color:#043e69;
+  }
+
+  dt{
+    float: left;
+    padding-left: 20px;
+  }
+
+  .news-list{
+    display: inline-block;
+    width:400px;
+    padding:15px;
+  }
+
+  hr{
+    border-width: 1px 0 0 0;
+	  border-style: dashed;
+	  border-color: #ccc;
+  }

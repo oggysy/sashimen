@@ -110,10 +110,10 @@
     padding-top: 30px;
     padding-bottom: 20px;
   }
+
   
-  /* -------------------- CSSはここから追加していきましょう！ -------------------- */
   .menu-icon{
-    display:none;
+    display: none;
   }
   
   .clear{
@@ -125,6 +125,13 @@
   }
 
   .content{
+    float:left;
+    width: calc(100% / 3);
+    height: 400px;
+    text-align: center;
+  }
+
+  .content-wide{
     float:left;
     width: calc(100% / 3);
     height: 400px;
@@ -171,9 +178,10 @@
   .news-box{
     background-color: white;
     margin:-80px auto 60px auto;
-    width:60%;
+    width:80%;
     border: solid 1px #aaa;
     border-radius: 10px;
+    box-shadow:  2px 2px 5px gray;
   }
 
   .news-heading{
@@ -210,3 +218,5 @@
 	  border-style: dashed;
 	  border-color: #ccc;
   }
+
+

@@ -1,0 +1,99 @@
+
+   /* -------------------- タブレットレイアウト -------------------- */
+   @media all and (max-width: 1000px){
+    header{
+        width: 60px;
+        height: 60px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .header-menu{
+        display: none;
+    }
+
+    .contents{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+    }
+
+    .content{
+        width: 50%;
+    }
+
+    .content-wide{
+        width: 100%;
+    }
+
+    .content-title{
+        font-size: 16px;
+    }
+
+    .icon{
+        position: absolute;
+        top: 40px;
+        left: 60px;
+    }
+
+    .menu-icon{
+        color: white;
+        display: block;
+        text-align: right;
+        font-size: 30px;
+        padding-top: 8px;
+    }
+    
+    .news-heading{
+        margin-right: 0px;
+    }
+}
+
+
+ /* -------------------- スマートフォンレイアウト -------------------- */
+    @media all and (max-width: 670px){
+    .content{
+        width: 100%;
+    }
+
+    .news-list{
+        width: 100%;
+     }
+     
+     .gmap {
+        height: 0;
+        overflow: hidden;
+        padding-bottom: 56.25%;
+        position: relative;
+    }
+
+    .gmap iframe {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+    }
+
+    .tel-logo{
+        width: 40px; 
+        height: 40px;
+    }
+
+    .tel-number{
+        width: 70%;
+        height: auto;
+    }
+
+    .about-text p{
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .about-br{
+        display: none;
+    }
+
+    .top-wrapper h1{
+        font-size: 24px;
+    }
+}

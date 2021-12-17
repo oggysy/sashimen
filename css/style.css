@@ -202,7 +202,7 @@
     color:#043e69;
   }
 
-  dt{
+  .news-list dt{
     float: left;
     padding-left: 20px;
   }
@@ -219,4 +219,32 @@
 	  border-color: #ccc;
   }
 
+  table{
+    margin: 0 auto;
+    width: 80%;
+    height: 150px;
+    border-collapse: collapse;
+  }
 
+  table th{
+    background: #043E69;
+    color: white;
+    width: 30px;
+  }
+
+  table td{
+    background: #EDFAFB;
+  }
+
+.time{
+  width: 80%;
+  margin:0 auto;
+}
+
+.schedule{
+  text-align: left;
+}
+
+.news-br{
+ display: none;       
+}

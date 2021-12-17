@@ -53,6 +53,12 @@
     @media all and (max-width: 670px){
     .content{
         width: 100%;
+        transform: scale(0.7, 0.7);
+    }
+
+    .content-wide{
+        width: 100%;
+        transform: scale(0.7, 0.7);
     }
 
     .news-list{
@@ -95,5 +101,21 @@
 
     .top-wrapper h1{
         font-size: 24px;
+    }
+
+    table td{
+        font-size: 6px;
+    }
+
+    table th{
+        font-size: 6px;
+    }
+
+    .news-br{
+        display: block;   
+    }
+
+    .news-list{
+        text-align: left;
     }
 }
